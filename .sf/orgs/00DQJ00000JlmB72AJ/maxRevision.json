@@ -1,0 +1,54 @@
+{
+    "fileVersion": 0,
+    "serverMaxRevisionCounter": 9,
+    "sourceMembers": {
+        "Profile__Admin": {
+            "memberType": "Profile",
+            "serverRevisionCounter": 2,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "ApexClass__DataTableController": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 3,
+            "lastRetrievedFromServer": 3,
+            "isNameObsolete": false
+        },
+        "ApexClass__DataTableControllerTest": {
+            "memberType": "ApexClass",
+            "serverRevisionCounter": 4,
+            "lastRetrievedFromServer": 4,
+            "isNameObsolete": false
+        },
+        "LightningComponentBundle__dataTableDashboard": {
+            "memberType": "LightningComponentBundle",
+            "serverRevisionCounter": 5,
+            "lastRetrievedFromServer": 5,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__dataTableDashboard/dataTableDashboard.css": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 6,
+            "lastRetrievedFromServer": 6,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__dataTableDashboard/dataTableDashboard.js-meta.xml": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 7,
+            "lastRetrievedFromServer": 7,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__dataTableDashboard/dataTableDashboard.html": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 8,
+            "lastRetrievedFromServer": 8,
+            "isNameObsolete": false
+        },
+        "LightningComponentResource__dataTableDashboard/dataTableDashboard.js": {
+            "memberType": "LightningComponentResource",
+            "serverRevisionCounter": 9,
+            "lastRetrievedFromServer": 9,
+            "isNameObsolete": false
+        }
+    }
+}
