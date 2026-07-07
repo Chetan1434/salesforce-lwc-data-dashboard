@@ -51,9 +51,12 @@ force-app/main/default/
 ```
 
 ## Screenshots
-> Add these after your first deploy:
-> - Component running inside Lightning App Builder
-> - Developer Console → Apex Test Execution → code coverage panel
+
+### Component in App Builder
+![Dashboard running in Lightning App Builder](screenshots/frontend.png)
+
+### Apex Test Coverage
+![Test coverage results](screenshots/backend.png)
 
 ## Deploy Instructions
 ```bash
