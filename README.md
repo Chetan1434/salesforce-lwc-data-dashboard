@@ -50,11 +50,6 @@ force-app/main/default/
     └── dataTableDashboard.js-meta.xml
 ```
 
-## Screenshots
-> Add these after your first deploy:
-> - Component running inside Lightning App Builder
-> - Developer Console → Apex Test Execution → code coverage panel
-
 ## Deploy Instructions
 ```bash
 # 1. Create a scratch org
