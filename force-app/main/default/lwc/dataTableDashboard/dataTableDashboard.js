@@ -22,6 +22,7 @@ export default class DataTableDashboard extends LightningElement {
     pageSize = PAGE_SIZE;
     draftValues = [];
     isLoading = false;
+    showNewRecordModal = false;
 
     wiredResult;      // keeps a handle on the full @wire response for refreshApex
     searchTimeout;
@@ -110,6 +111,25 @@ export default class DataTableDashboard extends LightningElement {
 
     handleCancel() {
         this.draftValues = [];
+    }
+
+    // ---- New record modal ----
+    openNewRecordModal() {
+        this.showNewRecordModal = true;
+    }
+
+    closeNewRecordModal() {
+        this.showNewRecordModal = false;
+    }
+
+    async handleNewRecordSuccess() {
+        this.showNewRecordModal = false;
+        this.showToast('Success', 'Account created successfully.', 'success');
+        await refreshApex(this.wiredResult); // re-pulls the current page so the new record shows up
+    }
+
+    handleNewRecordError(event) {
+        this.showToast('Error creating account', this.reduceError(event.detail), 'error');
     }
 
     // ---- Helpers ----
