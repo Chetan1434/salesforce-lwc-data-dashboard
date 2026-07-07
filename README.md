@@ -50,6 +50,7 @@ force-app/main/default/
     └── dataTableDashboard.js-meta.xml
 ```
 
+
 ## Screenshots
 
 ### Component in App Builder
@@ -58,6 +59,8 @@ force-app/main/default/
 ### Apex Test Coverage
 ![Test coverage results](screenshots/backend.png)
 
+
+>>>>>>> 630729f36050c904b430da7f704a654cd197b264
 ## Deploy Instructions
 ```bash
 # 1. Create a scratch org
